@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDDB3F32D0936BA006A01B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB3F22D0936BA006A01B2 /* AppDelegate.m */; };
+		7DDDB3F62D0936BA006A01B2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB3F52D0936BA006A01B2 /* SceneDelegate.m */; };
+		7DDDB3F92D0936BA006A01B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB3F82D0936BA006A01B2 /* ViewController.m */; };
+		7DDDB3FC2D0936BA006A01B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDDB3FA2D0936BA006A01B2 /* Main.storyboard */; };
+		7DDDB3FE2D0936BB006A01B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDDB3FD2D0936BB006A01B2 /* Assets.xcassets */; };
+		7DDDB4012D0936BB006A01B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDDB3FF2D0936BB006A01B2 /* LaunchScreen.storyboard */; };
+		7DDDB4042D0936BB006A01B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4032D0936BB006A01B2 /* main.m */; };
+		7DDDB40E2D0936BB006A01B2 /* SNPMagnifyManagerOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB40D2D0936BB006A01B2 /* SNPMagnifyManagerOCTests.m */; };
+		7DDDB4182D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4172D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.m */; };
+		7DDDB41A2D0936BB006A01B2 /* SNPMagnifyManagerOCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4192D0936BB006A01B2 /* SNPMagnifyManagerOCUITestsLaunchTests.m */; };
+		7DDDB4282D093A47006A01B2 /* MyTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4272D093A47006A01B2 /* MyTableController.m */; };
+		7DDDB42E2D093A87006A01B2 /* SNPMagnifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB42D2D093A87006A01B2 /* SNPMagnifyManager.m */; };
+		7DDDB4322D093C21006A01B2 /* SNPMagnifyOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4312D093C21006A01B2 /* SNPMagnifyOperateView.m */; };
+		7DDDB4352D093C47006A01B2 /* SNPMagnifyDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4342D093C47006A01B2 /* SNPMagnifyDisplayView.m */; };
+		7DDDB4382D093C99006A01B2 /* SNPMagnifyConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB4372D093C99006A01B2 /* SNPMagnifyConstant.m */; };
+		7DDDB43B2D098B03006A01B2 /* SNPMagnifyMoveLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDDB43A2D098B03006A01B2 /* SNPMagnifyMoveLimitView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DDDB40A2D0936BB006A01B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDDB3E62D0936BA006A01B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDDB3ED2D0936BA006A01B2;
+			remoteInfo = SNPMagnifyManagerOC;
+		};
+		7DDDB4142D0936BB006A01B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDDB3E62D0936BA006A01B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDDB3ED2D0936BA006A01B2;
+			remoteInfo = SNPMagnifyManagerOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DDDB3EE2D0936BA006A01B2 /* SNPMagnifyManagerOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNPMagnifyManagerOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDDB3F12D0936BA006A01B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DDDB3F22D0936BA006A01B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DDDB3F42D0936BA006A01B2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7DDDB3F52D0936BA006A01B2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7DDDB3F72D0936BA006A01B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DDDB3F82D0936BA006A01B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DDDB3FB2D0936BA006A01B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DDDB3FD2D0936BB006A01B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DDDB4002D0936BB006A01B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DDDB4022D0936BB006A01B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDDB4032D0936BB006A01B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DDDB4092D0936BB006A01B2 /* SNPMagnifyManagerOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNPMagnifyManagerOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDDB40D2D0936BB006A01B2 /* SNPMagnifyManagerOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyManagerOCTests.m; sourceTree = "<group>"; };
+		7DDDB4132D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNPMagnifyManagerOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDDB4172D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyManagerOCUITests.m; sourceTree = "<group>"; };
+		7DDDB4192D0936BB006A01B2 /* SNPMagnifyManagerOCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyManagerOCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7DDDB4262D093A47006A01B2 /* MyTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableController.h; sourceTree = "<group>"; };
+		7DDDB4272D093A47006A01B2 /* MyTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableController.m; sourceTree = "<group>"; };
+		7DDDB42C2D093A87006A01B2 /* SNPMagnifyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPMagnifyManager.h; sourceTree = "<group>"; };
+		7DDDB42D2D093A87006A01B2 /* SNPMagnifyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyManager.m; sourceTree = "<group>"; };
+		7DDDB4302D093C21006A01B2 /* SNPMagnifyOperateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPMagnifyOperateView.h; sourceTree = "<group>"; };
+		7DDDB4312D093C21006A01B2 /* SNPMagnifyOperateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyOperateView.m; sourceTree = "<group>"; };
+		7DDDB4332D093C47006A01B2 /* SNPMagnifyDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPMagnifyDisplayView.h; sourceTree = "<group>"; };
+		7DDDB4342D093C47006A01B2 /* SNPMagnifyDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyDisplayView.m; sourceTree = "<group>"; };
+		7DDDB4362D093C99006A01B2 /* SNPMagnifyConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPMagnifyConstant.h; sourceTree = "<group>"; };
+		7DDDB4372D093C99006A01B2 /* SNPMagnifyConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyConstant.m; sourceTree = "<group>"; };
+		7DDDB4392D098B03006A01B2 /* SNPMagnifyMoveLimitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPMagnifyMoveLimitView.h; sourceTree = "<group>"; };
+		7DDDB43A2D098B03006A01B2 /* SNPMagnifyMoveLimitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPMagnifyMoveLimitView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDDB3EB2D0936BA006A01B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB4062D0936BB006A01B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB4102D0936BB006A01B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DDDB3E52D0936BA006A01B2 = {
+			isa = PBXGroup;
+			children = (
+				7DDDB3F02D0936BA006A01B2 /* SNPMagnifyManagerOC */,
+				7DDDB40C2D0936BB006A01B2 /* SNPMagnifyManagerOCTests */,
+				7DDDB4162D0936BB006A01B2 /* SNPMagnifyManagerOCUITests */,
+				7DDDB3EF2D0936BA006A01B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDDB3EF2D0936BA006A01B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB3EE2D0936BA006A01B2 /* SNPMagnifyManagerOC.app */,
+				7DDDB4092D0936BB006A01B2 /* SNPMagnifyManagerOCTests.xctest */,
+				7DDDB4132D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDDB3F02D0936BA006A01B2 /* SNPMagnifyManagerOC */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB42B2D093A76006A01B2 /* SNPMagnifyManager */,
+				7DDDB3F12D0936BA006A01B2 /* AppDelegate.h */,
+				7DDDB3F22D0936BA006A01B2 /* AppDelegate.m */,
+				7DDDB3F42D0936BA006A01B2 /* SceneDelegate.h */,
+				7DDDB3F52D0936BA006A01B2 /* SceneDelegate.m */,
+				7DDDB3F72D0936BA006A01B2 /* ViewController.h */,
+				7DDDB3F82D0936BA006A01B2 /* ViewController.m */,
+				7DDDB4262D093A47006A01B2 /* MyTableController.h */,
+				7DDDB4272D093A47006A01B2 /* MyTableController.m */,
+				7DDDB3FA2D0936BA006A01B2 /* Main.storyboard */,
+				7DDDB3FD2D0936BB006A01B2 /* Assets.xcassets */,
+				7DDDB3FF2D0936BB006A01B2 /* LaunchScreen.storyboard */,
+				7DDDB4022D0936BB006A01B2 /* Info.plist */,
+				7DDDB4032D0936BB006A01B2 /* main.m */,
+			);
+			path = SNPMagnifyManagerOC;
+			sourceTree = "<group>";
+		};
+		7DDDB40C2D0936BB006A01B2 /* SNPMagnifyManagerOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB40D2D0936BB006A01B2 /* SNPMagnifyManagerOCTests.m */,
+			);
+			path = SNPMagnifyManagerOCTests;
+			sourceTree = "<group>";
+		};
+		7DDDB4162D0936BB006A01B2 /* SNPMagnifyManagerOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB4172D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.m */,
+				7DDDB4192D0936BB006A01B2 /* SNPMagnifyManagerOCUITestsLaunchTests.m */,
+			);
+			path = SNPMagnifyManagerOCUITests;
+			sourceTree = "<group>";
+		};
+		7DDDB42B2D093A76006A01B2 /* SNPMagnifyManager */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB42F2D093BAE006A01B2 /* view */,
+				7DDDB42C2D093A87006A01B2 /* SNPMagnifyManager.h */,
+				7DDDB42D2D093A87006A01B2 /* SNPMagnifyManager.m */,
+				7DDDB4362D093C99006A01B2 /* SNPMagnifyConstant.h */,
+				7DDDB4372D093C99006A01B2 /* SNPMagnifyConstant.m */,
+			);
+			path = SNPMagnifyManager;
+			sourceTree = "<group>";
+		};
+		7DDDB42F2D093BAE006A01B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7DDDB4302D093C21006A01B2 /* SNPMagnifyOperateView.h */,
+				7DDDB4312D093C21006A01B2 /* SNPMagnifyOperateView.m */,
+				7DDDB4332D093C47006A01B2 /* SNPMagnifyDisplayView.h */,
+				7DDDB4342D093C47006A01B2 /* SNPMagnifyDisplayView.m */,
+				7DDDB4392D098B03006A01B2 /* SNPMagnifyMoveLimitView.h */,
+				7DDDB43A2D098B03006A01B2 /* SNPMagnifyMoveLimitView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDDB3ED2D0936BA006A01B2 /* SNPMagnifyManagerOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDDB41D2D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOC" */;
+			buildPhases = (
+				7DDDB3EA2D0936BA006A01B2 /* Sources */,
+				7DDDB3EB2D0936BA006A01B2 /* Frameworks */,
+				7DDDB3EC2D0936BA006A01B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNPMagnifyManagerOC;
+			productName = SNPMagnifyManagerOC;
+			productReference = 7DDDB3EE2D0936BA006A01B2 /* SNPMagnifyManagerOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DDDB4082D0936BB006A01B2 /* SNPMagnifyManagerOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDDB4202D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOCTests" */;
+			buildPhases = (
+				7DDDB4052D0936BB006A01B2 /* Sources */,
+				7DDDB4062D0936BB006A01B2 /* Frameworks */,
+				7DDDB4072D0936BB006A01B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDDB40B2D0936BB006A01B2 /* PBXTargetDependency */,
+			);
+			name = SNPMagnifyManagerOCTests;
+			productName = SNPMagnifyManagerOCTests;
+			productReference = 7DDDB4092D0936BB006A01B2 /* SNPMagnifyManagerOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DDDB4122D0936BB006A01B2 /* SNPMagnifyManagerOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDDB4232D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOCUITests" */;
+			buildPhases = (
+				7DDDB40F2D0936BB006A01B2 /* Sources */,
+				7DDDB4102D0936BB006A01B2 /* Frameworks */,
+				7DDDB4112D0936BB006A01B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDDB4152D0936BB006A01B2 /* PBXTargetDependency */,
+			);
+			name = SNPMagnifyManagerOCUITests;
+			productName = SNPMagnifyManagerOCUITests;
+			productReference = 7DDDB4132D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDDB3E62D0936BA006A01B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = SNP;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7DDDB3ED2D0936BA006A01B2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7DDDB4082D0936BB006A01B2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7DDDB3ED2D0936BA006A01B2;
+					};
+					7DDDB4122D0936BB006A01B2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7DDDB3ED2D0936BA006A01B2;
+					};
+				};
+			};
+			buildConfigurationList = 7DDDB3E92D0936BA006A01B2 /* Build configuration list for PBXProject "SNPMagnifyManagerOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDDB3E52D0936BA006A01B2;
+			productRefGroup = 7DDDB3EF2D0936BA006A01B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDDB3ED2D0936BA006A01B2 /* SNPMagnifyManagerOC */,
+				7DDDB4082D0936BB006A01B2 /* SNPMagnifyManagerOCTests */,
+				7DDDB4122D0936BB006A01B2 /* SNPMagnifyManagerOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDDB3EC2D0936BA006A01B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDDB4012D0936BB006A01B2 /* LaunchScreen.storyboard in Resources */,
+				7DDDB3FE2D0936BB006A01B2 /* Assets.xcassets in Resources */,
+				7DDDB3FC2D0936BA006A01B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB4072D0936BB006A01B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB4112D0936BB006A01B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDDB3EA2D0936BA006A01B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDDB4382D093C99006A01B2 /* SNPMagnifyConstant.m in Sources */,
+				7DDDB43B2D098B03006A01B2 /* SNPMagnifyMoveLimitView.m in Sources */,
+				7DDDB3F92D0936BA006A01B2 /* ViewController.m in Sources */,
+				7DDDB3F32D0936BA006A01B2 /* AppDelegate.m in Sources */,
+				7DDDB4282D093A47006A01B2 /* MyTableController.m in Sources */,
+				7DDDB42E2D093A87006A01B2 /* SNPMagnifyManager.m in Sources */,
+				7DDDB4042D0936BB006A01B2 /* main.m in Sources */,
+				7DDDB3F62D0936BA006A01B2 /* SceneDelegate.m in Sources */,
+				7DDDB4322D093C21006A01B2 /* SNPMagnifyOperateView.m in Sources */,
+				7DDDB4352D093C47006A01B2 /* SNPMagnifyDisplayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB4052D0936BB006A01B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDDB40E2D0936BB006A01B2 /* SNPMagnifyManagerOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDDB40F2D0936BB006A01B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDDB41A2D0936BB006A01B2 /* SNPMagnifyManagerOCUITestsLaunchTests.m in Sources */,
+				7DDDB4182D0936BB006A01B2 /* SNPMagnifyManagerOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DDDB40B2D0936BB006A01B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDDB3ED2D0936BA006A01B2 /* SNPMagnifyManagerOC */;
+			targetProxy = 7DDDB40A2D0936BB006A01B2 /* PBXContainerItemProxy */;
+		};
+		7DDDB4152D0936BB006A01B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDDB3ED2D0936BA006A01B2 /* SNPMagnifyManagerOC */;
+			targetProxy = 7DDDB4142D0936BB006A01B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DDDB3FA2D0936BA006A01B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDDB3FB2D0936BA006A01B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DDDB3FF2D0936BB006A01B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDDB4002D0936BB006A01B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDDB41B2D0936BB006A01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DDDB41C2D0936BB006A01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDDB41E2D0936BB006A01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SNPMagnifyManagerOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DDDB41F2D0936BB006A01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SNPMagnifyManagerOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DDDB4212D0936BB006A01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNPMagnifyManagerOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SNPMagnifyManagerOC";
+			};
+			name = Debug;
+		};
+		7DDDB4222D0936BB006A01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNPMagnifyManagerOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SNPMagnifyManagerOC";
+			};
+			name = Release;
+		};
+		7DDDB4242D0936BB006A01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNPMagnifyManagerOC;
+			};
+			name = Debug;
+		};
+		7DDDB4252D0936BB006A01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.SNPMagnifyManagerOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNPMagnifyManagerOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDDB3E92D0936BA006A01B2 /* Build configuration list for PBXProject "SNPMagnifyManagerOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDDB41B2D0936BB006A01B2 /* Debug */,
+				7DDDB41C2D0936BB006A01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDDB41D2D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDDB41E2D0936BB006A01B2 /* Debug */,
+				7DDDB41F2D0936BB006A01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDDB4202D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDDB4212D0936BB006A01B2 /* Debug */,
+				7DDDB4222D0936BB006A01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDDB4232D0936BB006A01B2 /* Build configuration list for PBXNativeTarget "SNPMagnifyManagerOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDDB4242D0936BB006A01B2 /* Debug */,
+				7DDDB4252D0936BB006A01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDDB3E62D0936BA006A01B2 /* Project object */;
+}
